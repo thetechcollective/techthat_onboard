@@ -74,49 +74,27 @@ body:
     validations:
       required: true
       
+  - type: checkboxes
+    id: testtools
+    attributes:
+      description: You may select more than one.
+      label: Which test technologies, tools and apporoaches have you automated?
+      options:
+        - label: Unit tests/Static Code Analysis
+        - label: Integration tests
+        - label: End-to-end tests/Functional tests
+        - label: Performance/Load tests
+    validations:
+      required: true
+      
   - type: textarea
     id: in-your-own-words
     attributes:
       label: In your own words...
       description: Describe yourself from a perspective of _DevOps_ and _Software Development_
-      placeholder: Don't be shy
       value: |
         **Me and Devops**:
         **Me and Software Development**:
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      
