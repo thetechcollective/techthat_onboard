@@ -38,8 +38,8 @@ body:
         - label: Windows
         - label: Linux
         - label: Docker + Orchestration    
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: other-os
     attributes:
