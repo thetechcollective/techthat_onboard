@@ -25,7 +25,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Go through this series of checkboxes below and check everyone where you have have acquired skill beyond the level of _novice_. Implying that your would categorize yourself as either _advanced beginner_, _compentent_, _proficient_ or expert_[^dreyfus]
+        Go through this series of checkboxes below and check everyone where you have have acquired skill **above** the level of _novice_ implying that your would categorize yourself as either _advanced beginner_, _compentent_, _proficient_ or _expert_[^dreyfus]
         [^dreyfus]: The levels are refering to the [Dreyfus model of skill acqusition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) 
 
   - type: checkboxes
@@ -37,7 +37,16 @@ body:
         - label: macOS
         - label: Windows
         - label: Linux
-        - label: Docker + Orchestration        
+        - label: Docker + Orchestration    
+      validations:
+        required: true
+  - type: input
+    id: other-os
+    attributes:
+      label: Other OS
+      placeholder: "Optional"
+    validations:
+      required: false
 
   - type: textarea
     id: in-your-own-words
