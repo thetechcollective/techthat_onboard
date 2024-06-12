@@ -5,10 +5,6 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - lakruzz
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Let's get a bit of background on you, so we have a discussion that takes off-set in where your are professionally right now.
   - type: dropdown
     id: notification
     attributes:
@@ -21,6 +17,11 @@ body:
       default: 0
     validations:
       required: true
+      
+  - type: markdown
+    attributes:
+      value: |
+        Let's get a bit of background on you, so we have a discussion that takes off-set in where your are professionally right now.
 
   - type: markdown
     attributes:
@@ -40,13 +41,20 @@ body:
         - label: Docker + Orchestration    
     validations:
       required: true
-  - type: input
-    id: other-os
+
+  - type: checkboxes
+    id: languages
     attributes:
-      description: Other OS
-      placeholder: "Optional"
+      description: You may select more than one.
+      label: Which programming languages have you used?
+      options:
+        - label: JavaStript/TypeScript
+        - label: Java/C#
+        - label: Python/Perl
+        - label: Go/Rust/Dart
+        - label: C/C++
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: in-your-own-words
