@@ -15,9 +15,9 @@ body:
       required: true
 
   - type: dropdown
-    id: Confident in MarkDown
+    id: markdown
     attributes:
-      label: Markdown
+      label: Confident in MarkDown
       description: |
         We assume that you are familiar enough with [GitHub flavoured MarkDown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) that you are confident to do this exercise and document your progress and replies here in GitHub Issues - is that a fair assumption?
       options:
