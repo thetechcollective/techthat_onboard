@@ -25,12 +25,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Go through this series of checkboxes and check everyone where you have have acquired skill beyond the level of _novice_[^dreyfus]
-        [^dreyfus]: `template` and `fork` are two different concepts although somewhat similar; Forks clone all branches and all history and they maintain a relation to the repo they forked off, allowing them to push and pull back and forth. Templates on the other side are are completely detached from the source and they only take the `HEAD` commit on the default branch; [it's a fresh start](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#about-repository-templates). 
-      
-  - type: checkboxes
-    id: operating-systems
+        Go through this series of checkboxes below and check everyone where you have have acquired skill beyond the level of _novice_. Implying that your would categorize yourself as either _advanced beginner_, _compentent_, _proficient_ or expert_[^dreyfus]
+        [^dreyfus]: The levels are refering to the [Dreyfus model of skill acqusition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) 
     attributes:
+
+  - type: checkboxes
       description: You may select more than one.
       label: Which operating systems and OS technologies have you used?
       options:
