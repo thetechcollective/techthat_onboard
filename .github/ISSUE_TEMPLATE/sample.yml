@@ -29,6 +29,8 @@ body:
         [^dreyfus]: The levels are refering to the [Dreyfus model of skill acqusition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) 
 
   - type: checkboxes
+    id: os
+    attributes:
       description: You may select more than one.
       label: Which operating systems and OS technologies have you used?
       options:
