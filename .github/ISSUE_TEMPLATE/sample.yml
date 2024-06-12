@@ -17,6 +17,19 @@ body:
       default: 0
     validations:
       required: true
+
+  - type: dropdown
+    id: markdown
+    attributes:
+      label: Markdown
+      description: |
+        We assume that you are familiar enough with [GitHub flavoured MarkDown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) that you are confident to do this exercise and document your progress and replies here in GitHub Issues - is that a fair assumption?
+      options:
+        - Yep - that's right, hit me!
+        - No - Wait ...eeeh! MarkDown?
+      default: 0
+    validations:
+      required: true
       
   - type: markdown
     attributes:
@@ -38,7 +51,7 @@ body:
         - label: macOS
         - label: Windows
         - label: Linux
-        - label: Docker + Orchestration    
+        - label: Docker / Orchestration   
     validations:
       required: true
 
@@ -56,6 +69,17 @@ body:
     validations:
       required: true
 
+  - type: checkboxes
+    id: clouds
+    attributes:
+      description: You may select more than one.
+      label: Which clouds or platforms have you used?
+      options:
+        - label: AWS/GCP/Azure
+        - label: Firebase/Supabase
+    validations:
+      required: true
+      
   - type: textarea
     id: in-your-own-words
     attributes:
