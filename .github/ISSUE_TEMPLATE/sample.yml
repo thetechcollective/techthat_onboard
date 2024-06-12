@@ -24,7 +24,6 @@ body:
 
   - type: markdown
     attributes:
-      description: You may select more than one.
       value: |
         Go through this series of checkboxes and check everyone where you have have acquired skill beyond the level of _novice_[^dreyfus]
         [^dreyfus]: `template` and `fork` are two different concepts although somewhat similar; Forks clone all branches and all history and they maintain a relation to the repo they forked off, allowing them to push and pull back and forth. Templates on the other side are are completely detached from the source and they only take the `HEAD` commit on the default branch; [it's a fresh start](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#about-repository-templates). 
@@ -32,6 +31,7 @@ body:
   - type: checkboxes
     id: operating-systems
     attributes:
+      description: You may select more than one.
       label: Which operating systems and OS technologies have you used?
       options:
         - label: macOS
