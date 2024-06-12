@@ -14,7 +14,7 @@ body:
     attributes:
       label: Notifications in GitHub
       description: |
-        We assume that you have setup notifications on your GitHub account in such a a way, that we can communicate with you through _mentions_ and _assigmentes_ on issues - is that a fair assumption?
+        We assume that you have setup [notifications on your GitHub account](https://github.com/notifications) in such a a way, that we can communicate with you through _mentions_ and _assigmentes_ on issues - is that a fair assumption?
       options:
         - Yep - that's right, hit me!
         - No - I don't know how to set that up
