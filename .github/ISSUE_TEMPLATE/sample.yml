@@ -1,14 +1,10 @@
 name: Presentation
 description: Let's get a bit of background on you
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - lakruzz
 body:
   - type: dropdown
     id: notification
     attributes:
-      label: Notifications in GitHub
+      label: Notifications in GitHub setup
       description: |
         We assume that you have setup [notifications on your GitHub account](https://github.com/notifications) in such a a way, that we can communicate with you through _mentions_ and _assigmentes_ on issues - is that a fair assumption?
       options:
@@ -19,13 +15,13 @@ body:
       required: true
 
   - type: dropdown
-    id: markdown
+    id: Confident in MarkDown
     attributes:
       label: Markdown
       description: |
         We assume that you are familiar enough with [GitHub flavoured MarkDown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) that you are confident to do this exercise and document your progress and replies here in GitHub Issues - is that a fair assumption?
       options:
-        - Yep - that's right, hit me!
+        - Yep - that's right!
         - No - Wait ...eeeh! MarkDown?
       default: 0
     validations:
@@ -35,11 +31,9 @@ body:
     attributes:
       value: |
         Let's get a bit of background on you, so we have a discussion that takes off-set in where your are professionally right now.
-
-  - type: markdown
-    attributes:
-      value: |
+        
         Go through this series of checkboxes below and check everyone where you have have acquired skill **above** the level of _novice_ implying that your would categorize yourself as either _advanced beginner_, _compentent_, _proficient_ or _expert_[^dreyfus]
+        
         [^dreyfus]: The levels are refering to the [Dreyfus model of skill acqusition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) 
 
   - type: checkboxes
