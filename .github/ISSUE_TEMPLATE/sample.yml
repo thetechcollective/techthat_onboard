@@ -28,8 +28,8 @@ body:
       description: Describe yourself from a perspective of _DevOps_ and _Software Development_
       placeholder: Don't be shy
       value: |
-        "Me and Devops:
-        Me and Software Development:"
+        **Me and Devops**:
+        **Me and Software Development**:
     validations:
       required: true
   - type: dropdown
