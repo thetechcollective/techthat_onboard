@@ -96,5 +96,12 @@ body:
         **Me and Devops**:
         **Me and Software Development**:
     validations:
-      required: true
-      
+      required: true    
+
+  - type: markdown
+    attributes:
+      value: |
+        🤷‍♂️ Maybe you had more information you wanted to get off your chest?
+        > [!TIP]
+        > When you have submitted this issue, you can go back and find and open it and then chose to _edit_ the description.
+        > It will open up as raw MarkDown - and you can take it in any direction you want - know yourselæf out
