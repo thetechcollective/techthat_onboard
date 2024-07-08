@@ -6,7 +6,7 @@ body:
     attributes:
       label: Notifications in GitHub setup
       description: |
-        We assume that you have setup [notifications on your GitHub account](https://github.com/notifications) in such a a way, that we can communicate with you through _mentions_ and _assigmentes_ on issues - is that a fair assumption?
+        We assume that you have setup [notifications on your GitHub account](https://github.com/notifications) in such a a way, that we can communicate with you through _mentions_ and _assignments_ on issues - is that a fair assumption?
       options:
         - Yep - that's right, hit me!
         - No - I don't know how to set that up
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Confident in MarkDown
       description: |
-        We assume that you are familiar enough with [GitHub flavoured MarkDown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) that you are confident to do this exercise and document your progress and replies here in GitHub Issues - is that a fair assumption?
+        We assume that you are familiar with [GitHub flavoured MarkDown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to an extend that you are confident to do this exercise and document your progress and replies here in GitHub Issues. Is that a fair assumption?
       options:
         - Yep - that's right!
         - No - Wait ...eeeh! MarkDown?
@@ -30,20 +30,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        Let's get a bit of background on you, so we have a discussion that takes off-set in where your are professionally right now.
+        Let's get a bit of background on you, so we can have a discussion that takes off-set in where your are professionally right now.
         
-        Go through this series of checkboxes below and check everyone where you have have acquired skill **above** the level of _novice_ implying that your would categorize yourself as either _advanced beginner_, _compentent_, _proficient_ or _expert_[^dreyfus]
+        Go through this series of checkboxes below and check everyone where you have have acquired skill above the level of _novice_ implying that you would categorize yourself as either **_advanced beginner_**, **_compentent_**, **_proficient_** or _expert_[^dreyfus]
         
         [^dreyfus]: The levels are refering to the [Dreyfus model of skill acqusition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) 
 
   - type: checkboxes
     id: os
     attributes:
-      description: You may select more than one.
+      description: Check all where you are skilled above _novice_ level.
       label: Which operating systems and OS technologies have you used?
       options:
-        - label: macOS
         - label: Windows
+        - label: macOS
         - label: Linux
         - label: Docker / Orchestration   
     validations:
@@ -52,33 +52,37 @@ body:
   - type: checkboxes
     id: languages
     attributes:
-      description: You may select more than one.
+      description: Check all where you are skilled above _novice_ level.
       label: Which programming languages have you used?
       options:
-        - label: JavaStript/TypeScript
-        - label: Java/C#
-        - label: Python/Perl
-        - label: Go/Rust/Dart
-        - label: C/C++
+        - label: JavaStript or TypeScript
+        - label: Java or C#
+        - label: Python or Perl
+        - label: Go or Rust or Dart
+        - label: C or C++
     validations:
       required: true
 
   - type: checkboxes
     id: clouds
     attributes:
-      description: You may select more than one.
-      label: Which clouds or platforms have you used?
+      description: Check all where you are skilled above _novice_ level.
+      label: Which clouds, platforms or frameworks have you used?
       options:
-        - label: AWS/GCP/Azure
-        - label: Firebase/Supabase
+        - label: AWS
+        - label: GCP
+        - label: Azure
+        - label: Kubernetes
+        - label: Firebase or Supabase
+        - label: Flutter or React Native
     validations:
       required: true
       
   - type: checkboxes
     id: testtools
     attributes:
-      description: You may select more than one.
-      label: Which test technologies, tools and apporoaches have you automated?
+      description: Check all where you are skilled above _novice_ level.
+      label: Which test technologies, tools and apporoaches have you _automated?_
       options:
         - label: Unit tests/Static Code Analysis
         - label: Integration tests
@@ -86,7 +90,22 @@ body:
         - label: Performance/Load tests
     validations:
       required: true
-      
+
+  - type: checkboxes
+    id: devops
+    attributes:
+      description: Check all where you are skilled above _novice_ level.
+      label: Which DevOps and DevX technologies, tools and apporoaches have you used?
+      options:
+        - label: Declarative pipelines (GitHub Actions, Circle CI, etc.)
+        - label: Devcontainers
+        - label: Git, GitHub, GitLab...
+        - label: Ansible or Chef
+        - label: Docker
+
+    validations:
+      required: true
+
   - type: textarea
     id: in-your-own-words
     attributes:

@@ -1,6 +1,6 @@
 ---
-name: Plain vanilla
-about: Blank issue - type anything you want
+name: Blank issue
+about: Plain vanilla, no fuss - Type anything you want
 title: ''
 labels: ''
 assignees: ''
