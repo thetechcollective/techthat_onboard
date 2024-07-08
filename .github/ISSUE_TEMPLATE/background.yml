@@ -27,19 +27,7 @@ body:
     validations:
       required: true
       
-  - type: dropdown
-    id: education
-    attributes:
-      label: Relevant education
-      description: Please indicate your education level or if you're currently studing
-        - I have a relevant master's degree
-        - I have a relevant bachelor degree
-        - I have a relevant AP degree
-        - I'm currently studying a relevant degree
-        - I don't have a degree - I'm autodidact!   
-      default: 0
-    validations:
-      required: true
+
       
   - type: markdown
     attributes:
