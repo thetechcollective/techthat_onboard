@@ -109,8 +109,11 @@ body:
     id: in-your-own-words
     attributes:
       label: In your own words...
-      description: Use a few sentenses to describe yourself from a perspective of _DevOps_ and _Software Development_
-      value: |
+      description: |
+        Use a few sentenses to describe yourself from a perspective of _DevOps_ and _Software Development_ list some
+        of the additional skills that you pocess at a level above _beginner_ and that you find would contribute into 
+        a full-stack development team like .tech that
+      placeholder: |
         **Me and DevOps**:
         **Me and Software Development**:
     validations:
