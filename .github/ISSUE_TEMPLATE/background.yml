@@ -1,5 +1,5 @@
 name: Presentation
-description: A bit about you
+description: A bit about you - Use your full name as the title.
 body:
   - type: dropdown
     id: notification
@@ -111,6 +111,9 @@ body:
       label: In your own words...
       description: Describe yourself from a perspective of _DevOps_ and _Software Development_
       value: |
+        **Me and DevOps**:
+        **Me and Software Development**:
+      placeholder: |
         **Me and DevOps**:
         **Me and Software Development**:
     validations:
