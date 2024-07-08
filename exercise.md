@@ -14,9 +14,9 @@ for a video meeting and we can go over your replies.
 >[!NOTE]
 > 👉 Create your own copy of this repo 👈
 >
->Use this repo as a <code>template</code> 
+>Use this repo as a <code>template</code>
 >
->In the upper right corner find the button [_Use this template`_ and then _Create new repository_](/../../generate "Note that all links in GitHub issues, discussions and .md files opens default in the same tab as your current - so make it a habit to hold down CTRL (Windows & Linux) or ⌘ (Mac) when you click a link")
+>You can [Click here](https://github.com/new?template_name=techthat_onboard&template_owner=thetechcollective) or from the web interface; when the "Code" tab is selected there is a green button in the upper right corner: _`Use this template`_ and then _`Create new repository`_
 
 
 #### 👉 Work those issues 👈
