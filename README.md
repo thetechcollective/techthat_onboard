@@ -1,4 +1,4 @@
-<img width="100%" alt="Teh Tech Collective" align="center" src="https://github.com/ttc-cases/DevTestOps_onboard/assets/155492/f6a0ba8d-52a7-45d9-a7c4-7ac1ae797fe7">](image.png)# .tech that
+<img width="100%" alt="Teh Tech Collective" align="center" src="https://github.com/ttc-cases/DevTestOps_onboard/assets/155492/f6a0ba8d-52a7-45d9-a7c4-7ac1ae797fe7">]
 
 **The Tech Collective’s DevTestOps hub offers a dedicated full-stack team of software developers. We call the team .tech that. We work by Lean Software Development principles; Continuous Delivery always supported by a fully automated declarative pipeline and containerized infrastructure and environments as code. Quality is built in; Jidoka.**
 
@@ -40,4 +40,27 @@ We measure their mood, we test in production, we're data-driven.
 
 Here’s a list of what our full-stack team can do:
 
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li/> Continuous Integration (CI) 
+        <li/> Continuous Delivery (CD)
+        <li/> Test automation (unit test og E2E test)
+        <li/> Build & Configuration management
+        <li/> Branching strategies and Social Coding
+        <li/> Declarative pipelines and GitOps
+        <li/> Plugin- and extension-development
+      </ul>
+    </td>
+Front-end technologies
+Backend technologies
+System architecture and design
+Documentation - built-in
+Containerization
+Static Code Analysis
+Pretotypes (not a spelling mistake)
+
+  </tr>
+</table>
 
