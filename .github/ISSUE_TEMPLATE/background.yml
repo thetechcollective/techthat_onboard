@@ -129,7 +129,7 @@ body:
         of the additional skills that you pocess at a level above _novice_ and that _you_ find would contribute into 
         a full-stack development team like .tech that
       placeholder: |
-        I pocess the following full-stack relevant skills...
+        I possess the following full-stack relevant skills...
     validations:
       required: true
 
