@@ -1,5 +1,5 @@
 # .tech that chat
-**I have pointed you to this instruction because you have showed insterest in possibly joining The Tech Collective's .tect that full stack team.**
+**I have pointed you to this instruction because you have showed interest in possibly joining The Tech Collective's .tect that full stack team.**
 
 This is an instruction for a small exerecise we would like you to do, it will probably take you 30 mins to complete. 
 You can't winn or loose, there is no right or wrong. You can't be excluded or otherwise be ruled out. The purpose of the exercise is merely 
