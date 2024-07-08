@@ -101,4 +101,4 @@ Internally in the  **.tech that** team we spare with each other about all assign
 All our assignments are always solved with a codebase version controlled in git and with full documentation in MarkDown — also version controlled. Our deliverables follow the Semantic Versioning scheme and are supported by applicable and relevant package managers.
 
 # Prepare for a chat
-If you are reading this becasue you are preparing yourself for a first chat with one ot the **.tech that** team members about the possibilitis of joining our team then head on to the [issues](../issues/) of this repo and work you way through them.
+If you are reading this becasue you are preparing yourself for a first chat with one ot the **.tech that** team members about the possibilitis of joining our team then your probably want to do the [small exerecise](./exercise.md); Create a temple, share it with us and then work issues in your own repo.
