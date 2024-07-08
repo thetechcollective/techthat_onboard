@@ -40,5 +40,5 @@ jobs:
       - name: "Copying issues over from template repo"
         run: |
           gh extension install thetechcollective/gh-cpissues
-          gh cpissues thetechcollective/DevTestOps_onboard --label template
+          gh cpissues thetechcollective/techthat_onboard --label template
       
