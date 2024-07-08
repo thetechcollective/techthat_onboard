@@ -14,7 +14,7 @@ If - by the end of this exercise - you still would like to have a chat then in t
 >
 >Use this repo as a <code>template</code>
 >
->You can [click here](https://github.com/new?template_name=techthat_onboard&template_owner=thetechcollective) or from the web interface; On this repo's front page, tehre is a green button in the upper right corner: _`Use this template`_ and then _`Create new repository`_
+>You can [click here](https://github.com/new?template_name=techthat_onboard&template_owner=thetechcollective) or from the web interface; On this repo's front page, you'll find a green button in the upper right corner: _`Use this template`_ and then _`Create new repository`_
 >
 > Create the repository under your own user.
 
