@@ -1,5 +1,5 @@
 name: Presentation
-description: Let's get a bit of background on you
+description: A bit about you
 body:
   - type: dropdown
     id: notification
@@ -30,7 +30,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Let's get a bit of background on you, so we can have a discussion that takes off-set in where your are professionally right now.
+        Please give a bit of background about yourself, so we can have a discussion that takes off-set in where your are professionally right now.
         
         Go through this series of checkboxes below and check everyone where you have have acquired skill above the level of _novice_ implying that you would categorize yourself as either **_advanced beginner_**, **_compentent_**, **_proficient_** or _expert_[^dreyfus]
         
@@ -43,9 +43,8 @@ body:
       label: Which operating systems and OS technologies have you used?
       options:
         - label: Windows
-        - label: macOS
-        - label: Linux
-        - label: Docker / Orchestration   
+        - label: MacOS
+        - label: Linux / Docker    
     validations:
       required: true
 
@@ -55,7 +54,7 @@ body:
       description: Check all where you are skilled above _novice_ level.
       label: Which programming languages have you used?
       options:
-        - label: JavaStript or TypeScript
+        - label: JavaScript or TypeScript
         - label: Java or C#
         - label: Python or Perl
         - label: Go or Rust or Dart
@@ -82,11 +81,12 @@ body:
     id: testtools
     attributes:
       description: Check all where you are skilled above _novice_ level.
-      label: Which test technologies, tools and apporoaches have you _automated?_
+      label: Which test technologies, tools and apporoaches have you automated?
       options:
-        - label: Unit tests/Static Code Analysis
+        - label: Unit tests
+        - label: Static Code Analysis
         - label: Integration tests
-        - label: End-to-end tests/Functional tests
+        - label: End-to-end tests / Functional tests
         - label: Performance/Load tests
     validations:
       required: true
@@ -102,7 +102,6 @@ body:
         - label: Git, GitHub, GitLab...
         - label: Ansible or Chef
         - label: Docker
-
     validations:
       required: true
 
@@ -112,7 +111,7 @@ body:
       label: In your own words...
       description: Describe yourself from a perspective of _DevOps_ and _Software Development_
       value: |
-        **Me and Devops**:
+        **Me and DevOps**:
         **Me and Software Development**:
     validations:
       required: true    
