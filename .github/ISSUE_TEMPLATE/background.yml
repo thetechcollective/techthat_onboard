@@ -32,7 +32,7 @@ body:
       value: |
         Please give a bit of background about yourself, so we can have a discussion that takes off-set in where your are professionally right now.
         
-        Go through this series of checkboxes below and check everyone where you have have acquired skill above the level of _novice_ implying that you would categorize yourself as either **_advanced beginner_**, **_compentent_**, **_proficient_** or _expert_[^dreyfus]
+        Go through this series of checkboxes below and check everyone where you have have acquired skill above the level of _novice_ implying that you would categorize yourself as either **_advanced beginner_**, **_compentent_**, **_proficient_** or **_expert_**[^dreyfus]
         
         [^dreyfus]: The levels are refering to the [Dreyfus model of skill acqusition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) 
 
@@ -109,20 +109,18 @@ body:
     id: in-your-own-words
     attributes:
       label: In your own words...
-      description: Describe yourself from a perspective of _DevOps_ and _Software Development_
+      description: Use a few sentenses to describe yourself from a perspective of _DevOps_ and _Software Development_
       value: |
         **Me and DevOps**:
         **Me and Software Development**:
-      placeholder: |
-        **Me and DevOps**:
-        **Me and Software Development**:
     validations:
-      required: true    
+      required: true
 
   - type: markdown
     attributes:
       value: |
         🤷‍♂️ Maybe you had more information you wanted to get off your chest?
+        
         > [!TIP]
         > When you have submitted this issue, you can go back and find and open it and then chose to _edit_ the description.
         > It will open up as raw MarkDown - and you can take it in any direction you want - knock yourself out!
