@@ -1,15 +1,13 @@
 # .tech that chat
-**I have pointed you to this instruction because you have showed interest in possibly joining The Tech Collective's .tect that full stack team.**
+**I have pointed you to this instruction because you have showed interest in possibly joining The Tech Collective's .tech that full stack team.**
 
 This is an instruction for a small exerecise we would like you to do, it will probably take you 30 mins to complete. 
 You can't winn or loose, there is no right or wrong. You can't be excluded or otherwise be ruled out. The purpose of the exercise is merely 
 for for us to have something to talk about.
 
-If - by the end of this exercise - you still would like to setup a chat then in the final step you will be offered a link where you'll can book us 
-for a video meeting and we can go over your replies.
+If - by the end of this exercise - you still would like to have a chat then in the final step you will be offered a link where you'll can book us for a video meeting where we can go over your replies and get to know each other a bit..
 
 ## How to start this exercise
-
 
 >[!NOTE]
 > **👉 Create your own copy of this repo 👈**
