@@ -14,10 +14,9 @@ If - by the end of this exercise - you still would like to have a chat then in t
 >
 >Use this repo as a <code>template</code>
 >
->You can [click here](https://github.com/new?template_name=techthat_onboard&template_owner=thetechcollective) or from the web interface; when the `Code` tab is selected there is a green button in the upper right corner: _`Use this template`_ and then _`Create new repository`_
+>You can [click here](https://github.com/new?template_name=techthat_onboard&template_owner=thetechcollective) or from the web interface; On this repo's front page, tehre is a green button in the upper right corner: _`Use this template`_ and then _`Create new repository`_
 >
 > Create the repository under your own user.
-
 
 >[!WARNING]
 >
@@ -35,6 +34,6 @@ Continue there - in your own repo. Start by reading the `README.MD` ...it will i
 
 #### 👉 If you need help 👈
 
-The [discussions](https://github.com/thetechcollective/py-devx-intro/discussions "Note that all links in GitHub issues, discussions and .md files opens default in the same tab as your current - so make it a habit to hold down CTRL (Windows & Linux) or ⌘ (Mac) when you click a link") are enabled on the template repo (your source). If you need help, if you want to suggets improvements or if you have an urge to contribute to this tutorial - simply make a statement in the discussions. Feel free to mention me; [@lakruzz](https://github.com/lakruzz).
+At any time, if you need help, feel free to mention me [@lakruzz](https://github.com/lakruzz) in any of your issues or chat me up on LinkedIn (also) [@lakruzz](https://www.linkedin.com/in/lakruzz/)
 
 
