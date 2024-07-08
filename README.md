@@ -44,6 +44,7 @@ Here’s a list of what our full-stack team can do:
   <tr>
     <td>
       <ul>
+        <li/> Software development — period
         <li/> Continuous Integration (CI) 
         <li/> Continuous Delivery (CD)
         <li/> Test automation (unit test og E2E test)
@@ -51,16 +52,35 @@ Here’s a list of what our full-stack team can do:
         <li/> Branching strategies and Social Coding
         <li/> Declarative pipelines and GitOps
         <li/> Plugin- and extension-development
+        <li/> Pretotypes (not a spelling mistake)
       </ul>
     </td>
-Front-end technologies
-Backend technologies
-System architecture and design
-Documentation - built-in
-Containerization
-Static Code Analysis
-Pretotypes (not a spelling mistake)
-
+    <td>
+      <ul>
+        <li/> Developer Experience (DevX)
+        <li/> User Experience (UX)
+        <li/> Customer Experience (CX)
+        <li/> Flowtech (no-code/low-code/Python)
+        <li/> Front-end technologies
+        <li/> Backend technologies
+        <li/> System architecture and design
+        <li/> Documentation - built-in
+        <li/> Containerization
+      </ul>
+    </tr>
+    <tr>
+      <ul>
+        <li/> Emulators (Digital twins)
+        <li/> App Development
+        <li/> APIs and CLIs
+        <li/> Platform Engineering (Cloud computing)
+        <li/> Internal Development Platforms
+        <li/> Database technologies 
+        <li/> Data maintenance and data wash
+        <li/> Vulnerability scans
+        <li/> Static Code Analysis and Code coverage
+      </ul>
+    </tr>
   </tr>
 </table>
 
